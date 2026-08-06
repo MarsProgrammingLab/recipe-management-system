@@ -6,7 +6,6 @@ A multi-user RESTful web service built with **Spring Boot** to store, retrieve, 
 * **Java 17+**
 * **Spring Boot** (Web, Data JPA, Security)
 * **H2 Database** (In-memory database for development)
-* **Project Lombok** (To reduce boilerplate code)
 * **Spring Validation** (For robust request payload checks)
 * **Maven** (Build and dependency management)
 
