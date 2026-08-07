@@ -4,6 +4,6 @@ import recipes.model.Recipe;
 
 // Blueprint for RecipeServiceImpl
 public interface RecipeService {
-    Recipe createRecipe(Recipe recipe);
+    void createRecipe(Recipe recipe);
     Recipe getRecipe();
 }

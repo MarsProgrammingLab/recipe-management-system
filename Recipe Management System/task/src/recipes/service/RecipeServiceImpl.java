@@ -5,13 +5,15 @@ import org.springframework.stereotype.Service;
 
 @Service // Register instance of this class as bean in the application context
 public class RecipeServiceImpl implements RecipeService {
+    private Recipe recipe;
+
     @Override
-    public Recipe createRecipe(Recipe recipe) {
-        return null;
+    public void createRecipe(Recipe recipe) {
+        this.recipe = recipe;
     }
 
     @Override
     public Recipe getRecipe() {
-        return null;
+        return recipe;
     }
 }
